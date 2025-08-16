@@ -10,6 +10,7 @@
     "start": "bun run dev"
   },
   "scripts": {
+    "reload": "bun --hot run index.html",
     "dev": "bun run .bun/dev.js",
     "prod": "run-s clean build",
     "build": "bun run .bun/build.js",
